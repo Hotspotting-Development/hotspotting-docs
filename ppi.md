@@ -66,7 +66,7 @@ curl -H "Authorization: Bearer <token>" \
 
 ```bash
 curl -H "Authorization: Bearer <token>" \
-  "https://api.example.com/api/ppi?suburb=Melbourne&property_type=house"
+  "https://api.example.com/api/ppi?suburb_name=Melbourne&property_type=house"
 ```
 
 ## Response Format
