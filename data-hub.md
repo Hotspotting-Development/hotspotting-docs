@@ -46,7 +46,7 @@ You can send filters either via query param (URL-encoded JSON) for GET requests 
 GET with query params:
 
 ```bash
-curl -G "https://api.example.com/api/data-hub" \
+curl -G "https://api.example.com/api/member/data-hub" \
 	-H "Authorization: Bearer <token>" \
 	--data-urlencode "search=melbourne" \
 	--data-urlencode "filters=[{\"id\":1,\"column\":\"state\",\"operator\":\"equals\",\"value\":\"VIC\"}]" \
@@ -58,7 +58,7 @@ POST examples:
 
 Basic pagination request:
 ```bash
-curl -X POST https://api.example.com/api/data-hub \
+curl -X POST https://api.example.com/api/member/data-hub \
 	-H "Authorization: Bearer <token>" \
 	-H "Content-Type: application/json" \
 	-d '{
@@ -70,7 +70,7 @@ curl -X POST https://api.example.com/api/data-hub \
 
 Request with multiple filters (high yield properties in populated areas):
 ```bash
-curl -X POST https://api.example.com/api/data-hub \
+curl -X POST https://api.example.com/api/member/data-hub \
 	-H "Authorization: Bearer <token>" \
 	-H "Content-Type: application/json" \
 	-d '{

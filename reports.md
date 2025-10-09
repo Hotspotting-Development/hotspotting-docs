@@ -112,7 +112,7 @@ For these sections, image URLs are prefixed with: `https://membership.hotspottin
 ### Request Reports with Premium Membership
 
 ```bash
-curl -X GET "https://api.example.com/api/reports" \
+curl -X GET "https://api.example.com/api/member/reports" \
   -H "Authorization: Bearer your_access_token"
 ```
 
