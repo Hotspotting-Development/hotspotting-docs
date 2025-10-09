@@ -7,8 +7,8 @@ The Data Hub endpoint provides paginated access to the consolidated PPI monitori
 ## Base URL
 
 ```
-GET /api/data-hub
-POST /api/data-hub
+GET /api/member/data-hub
+POST /api/member/data-hub
 ```
 
 ## Authentication

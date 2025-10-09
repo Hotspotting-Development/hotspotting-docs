@@ -7,7 +7,7 @@ The Reports API endpoint provides access to various reports based on user member
 ## Base URL
 
 ```
-GET /api/reports
+GET /api/member/reports
 ```
 
 ## Authentication
