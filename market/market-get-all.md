@@ -34,7 +34,7 @@ Authorization: Bearer <your-access-token>
 
 ```bash
 curl -H "Authorization: Bearer <token>" \
-  "http://localhost:4000/api/member/proptrack/market?suburb=Melbourne&state=VIC&postcode=3000"
+  "https://api.example.com/api/member/proptrack/market?suburb=Melbourne&state=VIC&postcode=3000"
 ```
 
 ## Response Format
