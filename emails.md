@@ -17,8 +17,6 @@
 - **Subject**: `{site_title}` You've got a new order: #{order_number}
 - **Email Heading**: New order: #{order_number}
 
-### Order Summary
-
 #### Order Details
 
 - **Order Number**: #12345
@@ -27,21 +25,9 @@
 
 #### Purchased Items
 
-1. **Dummy Product**
-
-   - Quantity: 2
-   - Price: $45.45
-
-2. **Dummy Product Variation**
-
-   - Colour: Red
-   - Size: Small
-   - Quantity: 1
-   - Price: $18.18
-
-3. **Dummy Downloadable Product**
-   - Quantity: 1
-   - Price: $13.64
+| Product Image | Product Name | Product Quantity | Product Price |
+| ------------- | ------------ | ---------------- | ------------- |
+|               | Test Product | 1                | $100.00       |
 
 #### Financial Breakdown
 
@@ -49,10 +35,7 @@
 - **Discount**: -$10.00
 - **Shipping** (Flat rate): $5.00
 - **Total**: $80.00
-
-#### Payment Method
-
-WooCommerce In-Person Payments
+- **Payment Method**: WooCommerce In-Person Payments
 
 #### Billing Address
 
@@ -169,8 +152,6 @@ _This is an automated message. Please do not reply directly to this email._
 
 You have received a subscription renewal order from John Doe.
 
-### Order Summary
-
 #### Order Details
 
 - **Order Number**: #12345
@@ -178,21 +159,9 @@ You have received a subscription renewal order from John Doe.
 
 #### Purchased Items
 
-1. **Dummy Product**
-
-   - Quantity: 2
-   - Price: $45.45
-
-2. **Dummy Product Variation**
-
-   - Colour: Red
-   - Size: Small
-   - Quantity: 1
-   - Price: $18.18
-
-3. **Dummy Downloadable Product**
-   - Quantity: 1
-   - Price: $13.64
+| Product Image | Product Name | Product Quantity | Product Price |
+| ------------- | ------------ | ---------------- | ------------- |
+|               | Test Product | 1                | $100.00       |
 
 #### Financial Breakdown
 
@@ -200,10 +169,7 @@ You have received a subscription renewal order from John Doe.
 - **Discount**: -$10.00
 - **Shipping** (Flat rate): $5.00
 - **Total**: $80.00
-
-#### Payment Method
-
-WooCommerce In-Person Payments
+- **Payment Method**: WooCommerce In-Person Payments
 
 #### Customer Note
 
