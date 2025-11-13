@@ -80,8 +80,9 @@ Your subscription will automatically renew in 1 week — that's 20/11/2025.
 
 Subscription #12346 (13/10/2025)
 
-Product Image Product Name Product Quantity Product Price
-Test Product 1 $100.00
+| Product Image | Product Name | Product Quantity | Product Price |
+| ------------- | ------------ | ---------------- | ------------- |
+|               | Test Product | 1                | $100.00       |
 
 You can manage this subscription from your account dashboard.
 
